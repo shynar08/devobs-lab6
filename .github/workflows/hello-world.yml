@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Say Hello
-        run: echo "Hello World!"
+        run: echo "Hello from Shynar!"
       - name: Show OS
         run: uname -a
 
