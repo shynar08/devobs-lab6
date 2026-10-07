@@ -10,3 +10,11 @@ jobs:
     steps:
       - name: Say Hello
         run: echo "Hello World!"
+      - name: Show OS
+        run: uname -a
+
+      - name: Show current directory
+        run: pwd
+
+      - name: List files
+        run: ls -la
